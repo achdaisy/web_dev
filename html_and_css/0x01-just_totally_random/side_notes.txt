@@ -1,0 +1,52 @@
+To be able to navigate within the page, give each anchor element an href corresponding to the id of the h2 elements.
+the id has to start with #
+
+An example is as shown below:
+     <ul>
+          <li><a href="#student-info">INFO</a></li>
+          <li><a href="#html-questions">HTML</a></li>
+          <li><a href="#css-questions">CSS</a></li>
+     </ul>
+
+
+Link the label to their corresponding inputs using the for attribute, which contains the id of the input. 
+
+Using the before element for example as shown below:
+
+     p::before{
+          content: "Question #";
+     }
+
+Use of select and option elements.
+
+Footer and address elements.
+The footer element is a container for a collection of content that is related to the page.
+
+The address element does not have to contain a physical geographical location. It can be used to provide a link to the subject as below.
+     <footer>
+      <address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
+    </footer>
+
+On the topic of visual accessibility, contrast between elements is a key factor. 
+For example, the contrast between the text and the background of a heading should be at least 4.5:1.
+
+When you fix the header to the top of the viewport, you can now scroll the rest of the content while the header doesn't move.
+ You do it by specifying the position to be fixed. 
+
+ You can use flex-wrap: wrap to determine how the content will behave with smaller screens. 
+
+ Also consider aligning your labels and inputs. For example as below:
+     .info label, .info input 
+     {
+          display: inline-block;
+     }
+
+You can also consider giving the footer a different background color.
+
+The accesskey attribute accepts a space-separated list of access keys.
+
