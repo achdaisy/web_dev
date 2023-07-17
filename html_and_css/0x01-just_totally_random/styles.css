@@ -1,0 +1,54 @@
+/*For more styles especially for the navigation bar, remember to refer to the html/css quiz on the practice projects.*/
+
+* {
+  scroll-behavior: smooth;
+}
+
+
+#logo {
+    width: max(100px, 18vw);
+    background-color: #0a0a23;
+    aspect-ratio: 35/4;
+    padding: 0.4rem;
+  
+  }
+
+  header{
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+
+  h1{
+    color: #f1be32;  /*Use the desire colour*/
+    font-size: min(5vw, 1.2em);
+  }
+
+  nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+  }
+
+  nav > ul {      /*to target the unordered list elements within the nav element*/
+    display: flex; /*flexbox is to evenly space the children*/
+    justify-content: space-evenly;  
+  }
+
+  /*Styling the anchor elements on the navigation bar on hover */
+  nav > ul > li:hover{
+    color: #1b1b32;
+    background-color: #dfdfe2;
+    cursor: pointer;
+  }
+
+  footer{
+    background-color: #2a2a40;
+    display: flex;
+    justify-content: center;
+  }
