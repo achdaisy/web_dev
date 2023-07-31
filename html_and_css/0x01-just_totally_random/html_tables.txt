@@ -1,0 +1,8 @@
+Tables in html use caption to describe them. caption should be the first child of the table element.
+
+tr element is used to indicate a table row. The td element indicates a data cell, while the th element indicates a header cell.
+
+"border: collapse" property allow cell borders to collapse into a single border, instead of a border around each cell. 
+Also set the border property to 0 to hide the borders themselves 
+
+
